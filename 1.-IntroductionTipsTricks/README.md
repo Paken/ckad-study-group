@@ -29,6 +29,15 @@ Let's start with a proper strategy workflow, so that you know what to do between
    - The ones I was struggling with, and where I need to look at the solution, or do some serous reading in the documentation.
 3. **Labs 2** I took the ones of the 2nd and 3rd categories and repeated them in this stage. 
 4. **Labs 3** I only took the ones of the 3rd category and repeated them in this stage. By this stage, all of the exercises should have become as easy the ones in the 1st category. If that was not the case, then I would do extra iterations with them.
+5. After the labs, I did the Lightning Labs, which were more complicated exercises about some of the topics. I did those, until I found them easy enough.
+6. The same thing goes to the Mock Exams; although these are simulations of what you are going to find during the actual exam. Of course, in this case, you have 2 hours to complete the exercises of the mock exams, just like in the actual one.
+7. Then, I used the Killercoda exercises. The advantage of these ones, is that they go directly to the point. By this stage you can be happy that you don't get multiple questions, before the actual exercise.
+8. And last but not least, the Killershel Scenarios. When you buy the exam, you get 2 of them for free. In the case of CKAD, these scenarios are more difficult than the actual exam. Every scenario have 25 questions (the CKAD exam has around 15 questions) and, as in the actual exam, you only have 2 hours to complete all the questions. Once you start a scenario, you have 36 hours to repeat it as many times as you want. That's why my advice for this is:
+   - Reserve 6 days in a row.
+   - The first 4 days (most probably evenings, if you are working) reserve them for the scenarios.
+   - The 5th day use it to some last reading and practice, and most important, to rest.
+   - Do the exam on the 6th day.
+   
 
 
 ![](slides/Slide004.png)
