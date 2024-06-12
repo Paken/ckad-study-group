@@ -38,11 +38,11 @@ Let's start with a proper strategy workflow, so that you know what to do between
    - The 5th day use it to some last reading and practice, and most important, to rest.
    - Do the exam on the 6th day.
    
-
-
 ![](slides/Slide004.png)
 
 ## Study Strategy Table
+I have created the table below to have an overview of all the topics.
+
 ![](slides/Slide005.png)
 
 ## Resource Deployment
