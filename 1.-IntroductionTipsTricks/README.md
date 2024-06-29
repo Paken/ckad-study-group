@@ -41,11 +41,21 @@ Let's start with a proper strategy workflow, so that you know what to do between
 ![](slides/Slide004.png)
 
 ## Study Strategy Table
-I have created the table below to have an overview of all the topics.
+I have created the table below to have an overview of all the topics. You can use it to have a visualization of all the topics, whose labs you will do in the steps Labs(1), Labs(2), and Lab(3) of the previous diagram.
+
+If there's a topic that you find easy after doing the lab, you can mark all 3 columns of the topic (1st, 2nd, and 3rd). Those are the ones that you only do in Labs(1). In the topics where you made a mistake, but where not difficult, you will add only marks in the firts 2 columns, so you can repeat them in Labs(2).
+
+Last but not least, those labs with which you were struggling, will get only one mark in the 1st column, so that you take them to Labs(2), and Labs(3).
+
+This way, you can focus on (and repeat) those that were not easy during Labs(2) and Labs(3), instead of repeating everything.
 
 ![](slides/Slide005.png)
 
 ## Resource Deployment
+Kubernetes has many different objects and resources that you can create. With this slide I want to show you the most approppriate and efficient way of creating them. There are 4 ways of creating them:
+
+1. You can create them directly from the command line with Kubectl; you don't need to fill out an entire manifest from scratch. For some of them (secrets, services, roles, rolebindings), I even recommend to use the help (-h) option, because
+
 ![](slides/Slide006.png)
 
 ## Verification
