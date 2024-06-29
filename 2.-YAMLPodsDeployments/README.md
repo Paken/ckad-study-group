@@ -1,3 +1,5 @@
+
+
 Kubectl run pods with image
 Kubectl get pods
 Explain namespaces
@@ -12,6 +14,8 @@ How many containers per pod?
 What does the READY column mean?
 Delete pod without --force to show how much time it takes
 Show help: --image --dry-run -o yaml
+--show-labels
+-o wide
 
 
 Explain replica sets
@@ -28,10 +32,12 @@ scale with --replicas flag or by changing the file
 Same things with deployments
 Try to scale, change image, so that you see that the pods will be deleted.
 
+
 namespaces, you can use the generic flag --no-headers and count with wc -l
 Explain also grep and egrep
 explain flag -n for creating resources
 What namespace has the blue pod in it
+
 
 command line
 --show-labels
