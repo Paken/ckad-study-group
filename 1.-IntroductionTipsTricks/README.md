@@ -52,29 +52,65 @@ This way, you can focus on (and repeat) those that were not easy during Labs(2) 
 ![](slides/Slide005.png)
 
 ## Resource Deployment
-Kubernetes has many different objects and resources that you can create. With this slide I want to show you the most approppriate and efficient way of creating them. There are 4 ways of creating them:
+Kubernetes has many different objects and resources that you can create. With this slide I want to show you the most approppriate and efficient way of creating them; I have split it in 4 ways, depending on what resources these strategies are useful for:
 
-1. You can create them directly from the command line with Kubectl; you don't need to fill out an entire manifest from scratch. For some of them (secrets, services, roles, rolebindings), I even recommend to use the help (-h) option, because
+1. You can create them directly from the command line with Kubectl, so that you don't need to fill out an entire manifest from scratch. For some of them (secrets, services, roles, rolebindings). I even recommend to use the help (-h) option, because you get all the parameters that you need; and by the end, there's a line that you can copy/paste into the command line, so that you can fill out whatever you need. It will feel as easy as filling out a form.
+
+2. Even when you use the help option, there are variables that you cannot add from the command line. That's when the dry run comes into play. Just write the whole command and add by the end `--dry-run=client -o yaml > <FILE>` (being <FILE> the name of the file where you will export the manifest), so that can add the necessary variables/parameters in the manifest.
+
+3. When you execute a dry run, you might remember the structure that you need to add into the manifest; but if you don't, the command `kubectl explain` is quite helpful, because you get the whole structure of the manifest, and you can dig into the specific areas that you need. This way, you don't have to memorize anything.
+
+4. Last but not least, the documentation. For some resources, it is even better to just copy/paste the whole manifest, and then change approppriately according to what you need for the exercise. When looking for information in the documentation, don't scroll up or down, but just look for a specific string into the page, which will be faster.
 
 ![](slides/Slide006.png)
 
 ## Verification
+Having a strategy to execute is useful and necessary, but that's also the case for the verification. Check out the slide to find out what commands you can use to verify that what you did was correct. This is important, because you might have written a typo in the name of a variable, parameter, or namespace.
+
 ![](slides/Slide007.png)
 
 ## Practical Tips
+It is time now for some practical tips, which will save you from non-necessary mistakes that will lead to a failed exam:
+
+1. Use a personal computer, not a business one, with either Mac OS or Windows, and don't try with a VM. The only software that can be running at the time of the exam is the PSI Secure Browser. This will detect if other software is running, and you won't be able to start the exam, until those are off.
+
+2. Be on time before the exam. You can start the onboarding 30 minutes before the start of the exam. Depending on the proctor, it could take a few minutes, or longer. You don't want to consume time of the exam for the onboarding.
+
+3. Make sure that you have an empty desk, where just your computer is on top of. They allowed also a glass of water, but nothing else.
+
+4. Get yourself a laptop with a screen of 14 inches at least. If you don't, you can use an external screen, but make sure that laptop screen is disabled. In this case you will also need an extra mouse, keyboard, camera and microphone.
+
+5. Last but not least; if it's the first time doing this kind of exam, use a couple of minutes to familiarize with the environment, because it's not the most pleasant one.
+
 ![](slides/Slide008.png)
 
 ## The Exam Environment
+Have a look at the environment. It is divided in several sections:
+
+1. On the left side, you have the number of questions and the bar with the time that you have left. On the bottom you have a description and the whole text for current question. They have removed the weight for every question; just go from the first one to the last one, mark those 2-3 questions that you cannot quickly solve and leave them until you have completed the rest.
+
+2. On the right side, you have the work area. Open a terminal with 2 tabs (one to work, another to play with `kubectl explain`), also a browser with the documentation (both for Kubernetes and Helm), and make sure that the `Find` option is enabled. Remember to maximize both; you can switch by clicking on the tab on top.
+
 ![](slides/Slide009.png)
 
 ## Final Tips
+Have a look at these final tips, as they are as important as knowing anything about Kubernetes for this exam. They will save you from making a silly mistake.
+
 ![](slides/Slide010.png)
 
 ## READ CAREFULLY
+Please, read everything carefully. People don't fail because of not knowing a certain topic, but because they didn't read carefully.
+
 ![](slides/Slide011.png)
 
 ## Extra Material
+These are some books that will give you more knowledge about Kubernetes. Definitely I recommend **Kubernetes Cookbook** to practice some more exercises for CKAD.
+
 ![](slides/Slide012.png)
 
 ## Questions & Answers
+If you got all the way to this slide, thank you very much. Please, feel free to scan the code and to contact me in Linkedin. I will be more than happy of answering your questions.
+
+Remember that this is just the beginning. In the comming sessions, we'll explore all the topics and exercises that you need to ace this certification. Share, enjoy, and good luck.
+
 ![](slides/Slide013.png)
